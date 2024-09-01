@@ -1,7 +1,7 @@
 const gandalfJam = document.querySelector("#gandalf-jam");
 
 gandalfJam.addEventListener("click", function addGandalf() {
-  const videos = ["video/gandalfjam.mp4", "video/hobbitjam.mp4"];
+  const videos = ["video/Gandalfjam.mp4", "video/hobbitjam.mp4"];
 
   const randomvideo = videos[Math.floor(Math.random() * videos.length)];
 
